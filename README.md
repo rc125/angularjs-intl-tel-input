@@ -5,7 +5,7 @@
 https://rc125.github.io/angularjs-intl-tel-input/
 
 ## Getting Started
-1. Download the [latest release](https://github.com/jackocnr/intl-tel-input/releases/latest) of jackocnr/intl-tel-input
+1. Download the [jackocnr/intl-tel-input](https://github.com/jackocnr/intl-tel-input/releases/latest) latest release
 
 2. Include the stylesheet
   ```html
