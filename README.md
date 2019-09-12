@@ -1,5 +1,9 @@
 # angularjs-intl-tel-input
 
+### Demo
+
+https://rc125.github.io/angularjs-intl-tel-input/
+
 ### Setup and config
 
 Inject `ngIntlTelInput` into your application module
