@@ -13,8 +13,15 @@
  
   <style>
     /*
-     * @see https://github.com/Bluefieldscom/intl-tel-input#troubleshooting
+     * @see https://github.com/jackocnr/intl-tel-input#getting-started
      */
+    
+    .iti__flag {background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.3/img/flags.png");}
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .iti__flag {background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.3/img/flags@2x.png");}
+    }
+    
     .intl-tel-input {
       display: table-cell;
     }
