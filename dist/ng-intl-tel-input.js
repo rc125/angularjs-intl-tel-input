@@ -15,9 +15,9 @@ angular.module('ngIntlTelInput', []);angular.module('ngIntlTelInput')
       return Object.create(me, {
         init: {
           value: function (elm) {
-            if (!window.intlTelInputUtils) {
-              $log.warn('intlTelInputUtils is not defined. Formatting and validation will not work.');
-            }
+            //if (!window.intlTelInputUtils) {
+            //  $log.warn('intlTelInputUtils is not defined. Formatting and validation will not work.');
+            //}
             return window.intlTelInput(elm[0], props);
           }
         },
